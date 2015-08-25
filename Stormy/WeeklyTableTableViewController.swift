@@ -16,7 +16,7 @@ class WeeklyTableTableViewController: UITableViewController {
     @IBOutlet weak var currentTemperatureRangeLabel: UILabel!
     
     // Location coordinates
-    let coordinate: (lat: Double, lon: Double) = (37.8267,-122.423)
+    let coordinate: (lat: Double, lon: Double) = (-18.5958777,-46.5062862)
     
     // API key
     private let forecastAPIKey = "5eba174091e0725e8b0ffa3e758de11d"
@@ -57,6 +57,16 @@ class WeeklyTableTableViewController: UITableViewController {
         retrieveWeatherForecast()
         refreshControl?.endRefreshing()
     }
+    
+    // MARK: NAVIGATION
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showDaily"{
+            if let indexPath = tableView.indexPathForSelectedRow{
+                let dailyWeather = weeklyWeather[indexPath.row]
+                (segue.destinationViewController as! ViewController).dailyWeather = dailyWeather
+            }
+        }
+    }
 
     // MARK: - Table view data source
 
@@ -78,9 +88,9 @@ class WeeklyTableTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("WeatherCell") as! DailyWeatherTableViewCell
         
         let dailyWeather = weeklyWeather[indexPath.row]
-        let maxtTemp = dailyWeather.minTemperature
+        let maxtTemp = dailyWeather.maxTemperature
         if maxtTemp != nil{
-            cell.temperatureLabel.text = "\(maxtTemp)º"
+            cell.temperatureLabel.text = "\(maxtTemp!)º"
         }
         
         cell.icon.image = dailyWeather.icon

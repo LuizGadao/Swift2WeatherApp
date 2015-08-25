@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5554757C1B86247A009E55B7 /* DetailBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554757B1B86247A009E55B7 /* DetailBackgroundView.swift */; };
 		55A5ABB61B83997B00FB4A3F /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5ABB51B83997B00FB4A3F /* DailyWeather.swift */; };
 		55A5ABB81B839EA900FB4A3F /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5ABB71B839EA900FB4A3F /* Icon.swift */; };
 		55A5ABBA1B83AC0D00FB4A3F /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5ABB91B83AC0D00FB4A3F /* Forecast.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5554757B1B86247A009E55B7 /* DetailBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBackgroundView.swift; sourceTree = "<group>"; };
 		55A5ABB51B83997B00FB4A3F /* DailyWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		55A5ABB71B839EA900FB4A3F /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		55A5ABB91B83AC0D00FB4A3F /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				97EBEE521B027B820055F957 /* Main.storyboard */,
 				55ACF1D61B822EF70083CEB6 /* BackgroundView.swift */,
 				55A5D5251B85184300C63A86 /* DailyWeatherTableViewCell.swift */,
+				5554757B1B86247A009E55B7 /* DetailBackgroundView.swift */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				55A5ABB61B83997B00FB4A3F /* DailyWeather.swift in Sources */,
 				55A5D5261B85184300C63A86 /* DailyWeatherTableViewCell.swift in Sources */,
 				97942D8A1B03AAC2002D007C /* NetworkOperation.swift in Sources */,
+				5554757C1B86247A009E55B7 /* DetailBackgroundView.swift in Sources */,
 				97EBEE511B027B820055F957 /* ViewController.swift in Sources */,
 				55A5ABB81B839EA900FB4A3F /* Icon.swift in Sources */,
 				55A5ABBA1B83AC0D00FB4A3F /* Forecast.swift in Sources */,
