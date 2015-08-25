@@ -47,7 +47,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudy-night" translatesAutoresizingMaskIntoConstraints="NO" id="aZy-7O-xMR">
-                                <rect key="frame" x="245" y="99" width="110" height="110"/>
+                                <rect key="frame" x="245" y="122" width="110" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="Bmb-Ft-sKM"/>
                                     <constraint firstAttribute="width" constant="110" id="oRp-Hg-akT"/>
@@ -207,7 +207,7 @@
                             <constraint firstItem="2NS-7X-QrC" firstAttribute="centerX" secondItem="3k4-Fj-SVH" secondAttribute="centerX" id="um0-zs-CU5"/>
                             <constraint firstItem="3k4-Fj-SVH" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" constant="-37.5" id="vix-bT-VQ1"/>
                             <constraint firstItem="2NS-7X-QrC" firstAttribute="top" secondItem="3k4-Fj-SVH" secondAttribute="top" constant="8" id="wjJ-oo-y4B"/>
-                            <constraint firstItem="b9H-Bh-hWT" firstAttribute="top" secondItem="aZy-7O-xMR" secondAttribute="bottom" constant="51" id="xi2-Ns-mxn"/>
+                            <constraint firstItem="b9H-Bh-hWT" firstAttribute="top" secondItem="aZy-7O-xMR" secondAttribute="bottom" constant="28" id="xi2-Ns-mxn"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
