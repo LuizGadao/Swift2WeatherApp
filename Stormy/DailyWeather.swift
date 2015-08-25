@@ -25,7 +25,7 @@ struct DailyWeather {
     
     init(dailyWeatherDict:[String:AnyObject]){
         maxTemperature = dailyWeatherDict["temperatureMax"] as? Int
-        minTemperature = dailyWeatherDict["temperatreMin"] as? Int
+        minTemperature = dailyWeatherDict["temperatureMin"] as? Int
         
         if let humidityFloat = dailyWeatherDict["humidity"] as? Double {
             humidity = Int(humidityFloat * 100)
